@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 # DDCO_sem3_project
 
 
+=======
+# Count number of one's in given binary input
+>>>>>>> b279b693012403dd0ccc185395295d36b4fb1888
 ## Overview
 
 The `count_ones` module is a simple Verilog module that takes an 8-bit input vector and outputs a 4-bit vector representing the count of ones in the input vector. The module uses a combinational always block to perform the counting.
@@ -18,6 +22,10 @@ The `count_ones` module is a simple Verilog module that takes an 8-bit input vec
 ### Module Implementation
 
 ```verilog
+<<<<<<< HEAD
+=======
+//onecount.v
+>>>>>>> b279b693012403dd0ccc185395295d36b4fb1888
 module count_ones (
     input [7:0] in,
     output reg [3:0] out
@@ -26,23 +34,22 @@ always @(*) begin
     out = in[0] + in[1] + in[2] + in[3] + in[4] + in[5] + in[6] + in[7];
 end
 endmodule
-
+```
 # Simulation of count_ones Verilog Module
 
 ## Overview
 
-This guide provides instructions on how to simulate the `count_ones` Verilog module using the provided testbench (`onecount.v`).
+This guide provides instructions on how to simulate the `count_ones` Verilog module using the provided testbench (`tb_onecount.v`).
 
 ## Simulation Steps
 
-1. **Open a Terminal:**
-   Open a terminal window in the directory containing the Verilog files.
+1.**Open a Terminal:**
+    Open a terminal window in the directory containing the Verilog files.
 
-2. **Compile Verilog Files:**
-   Compile the `count_ones` module and the testbench using your Verilog simulator. For example, with ModelSim:
-
+2.**Compile Verilog Files**
+    Compile the `count_ones` module and the testbench using your Verilog simulator. For example:
    
-   iverilog -o test1 onecount.v tb_onecount.v
+    iverilog -o test1 onecount.v tb_onecount.v
 
 3.**Run Stimulate**
     Run the simulation using vvp, which is a utility that executes compiled Verilog simulations:
@@ -67,9 +74,12 @@ This guide provides an explanation of the `tb_onecount.v` testbench, which is de
 
 The testbench (`tb_onecount.v`) is responsible for testing various scenarios of the `count_ones` module. It includes several test cases, each with different 8-bit binary inputs (`in`). The expected output (`out`) is printed for each test case, allowing for easy verification of the `count_ones` module.
 
-## Testbench Code Explanation
+### Testbench Code Explanation
 
-verilog
+```verilog
+// tb_onecount.v
+`timescale 1ns / 1ps
+
 module count_ones_tb;
   reg [7:0] in;
   wire [3:0] out;
@@ -119,6 +129,7 @@ module count_ones_tb;
   end
 
 endmodule
+```
 
 
 
