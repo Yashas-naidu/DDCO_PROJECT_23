@@ -16,6 +16,7 @@ The `count_ones` module is a simple Verilog module that takes an 8-bit input vec
 ### Module Implementation
 
 ```verilog
+//onecount.v
 module count_ones (
     input [7:0] in,
     output reg [3:0] out
@@ -64,10 +65,10 @@ This guide provides an explanation of the `tb_onecount.v` testbench, which is de
 
 The testbench (`tb_onecount.v`) is responsible for testing various scenarios of the `count_ones` module. It includes several test cases, each with different 8-bit binary inputs (`in`). The expected output (`out`) is printed for each test case, allowing for easy verification of the `count_ones` module.
 
-## Testbench Code Explanation
+### Testbench Code Explanation
 
-verilog
-```// count_ones_tb.v
+```verilog
+// tb_onecount.v
 `timescale 1ns / 1ps
 
 module count_ones_tb;
@@ -119,8 +120,6 @@ module count_ones_tb;
   end
 
 endmodule
-
-
 ```
 
 
