@@ -121,3 +121,8 @@ module count_ones_tb;
 
 endmodule
 ```
+##OUTPUT SCREEN
+
+![Alt text](Screenshot 2023-11-13 101717.png)
+![Alt text](Screenshot 2023-11-13 101708.png)
+
