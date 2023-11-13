@@ -1,6 +1,5 @@
-# ddco_sem3_project
+# DDCO_sem3_project
 
-# count_ones Verilog Module
 
 ## Overview
 
@@ -18,7 +17,7 @@ The `count_ones` module is a simple Verilog module that takes an 8-bit input vec
 
 ### Module Implementation
 
-verilog
+```verilog
 module count_ones (
     input [7:0] in,
     output reg [3:0] out
