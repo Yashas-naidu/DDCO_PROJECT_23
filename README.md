@@ -29,7 +29,7 @@ endmodule
 
 ## Overview
 
-This guide provides instructions on how to simulate the `count_ones` Verilog module using the provided testbench (`onecount.v`).
+This guide provides instructions on how to simulate the `count_ones` Verilog module using the provided testbench (`tb_onecount.v`).
 
 ## Simulation Steps
 
@@ -40,7 +40,7 @@ This guide provides instructions on how to simulate the `count_ones` Verilog mod
    Compile the `count_ones` module and the testbench using your Verilog simulator. For example, with ModelSim:
 
    
-   iverilog -o test1 onecount.v tb_onecount.v
+   `iverilog -o test1 onecount.v tb_onecount.v1`
 
 3.**Run Stimulate**
     Run the simulation using vvp, which is a utility that executes compiled Verilog simulations:
