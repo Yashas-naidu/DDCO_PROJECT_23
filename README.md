@@ -33,13 +33,13 @@ This guide provides instructions on how to simulate the `count_ones` Verilog mod
 
 ## Simulation Steps
 
-1. **Open a Terminal:**
-   Open a terminal window in the directory containing the Verilog files.
+1.**Open a Terminal:**
+    Open a terminal window in the directory containing the Verilog files.
 
-2. **Compile Verilog Files**
-   Compile the `count_ones` module and the testbench using your Verilog simulator. For example:
+2.**Compile Verilog Files**
+    Compile the `count_ones` module and the testbench using your Verilog simulator. For example:
    
-   iverilog -o test1 onecount.v tb_onecount.v1
+    iverilog -o test1 onecount.v tb_onecount.v
 
 3.**Run Stimulate**
     Run the simulation using vvp, which is a utility that executes compiled Verilog simulations:
