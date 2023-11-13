@@ -60,7 +60,7 @@ This guide provides instructions on how to simulate the `count_ones` Verilog mod
 <img src="https://github.com/Yashas-naidu/DDCO_PROJECT_23/blob/6e4bb0342338bf81013ec7725f79be5f1e505695/Screenshot%202023-11-13%20101708.png?raw=true" alt="error"/>
 
 
-<img src="https://github.com/Yashas-naidu/DDCO_PROJECT_23/blob/6e4bb0342338bf81013ec7725f79be5f1e505695/Screenshot%202023-11-13%20101708.png?raw=true" alt="error"/>
+<img src="https://github.com/Yashas-naidu/DDCO_PROJECT_23/blob/6e4bb0342338bf81013ec7725f79be5f1e505695/Screenshot%202023-11-13%20101717.png?raw=true" alt="error"/>
 
 # count_ones Verilog Module Testbench
 
