@@ -55,6 +55,13 @@ This guide provides instructions on how to simulate the `count_ones` Verilog mod
 5.**Analyse Waveform**
     In the waveform viewer, you will see the signals in and out for each test case. The out signal represents the count of ones in the corresponding in vector.
 
+## OUTPUT SCREEN
+
+![Alt text](https://github.com/Yashas-naidu/DDCO_PROJECT_23/blob/6e4bb0342338bf81013ec7725f79be5f1e505695/Screenshot%202023-11-13%20101717.png)
+
+
+![Alt text](https://github.com/Yashas-naidu/DDCO_PROJECT_23/blob/6e4bb0342338bf81013ec7725f79be5f1e505695/Screenshot%202023-11-13%20101708.png)
+
 # count_ones Verilog Module Testbench
 
 ## Overview
@@ -121,8 +128,7 @@ module count_ones_tb;
 
 endmodule
 ```
-##OUTPUT SCREEN
 
-![Alt text](Screenshot 2023-11-13 101717.png)
-![Alt text](Screenshot 2023-11-13 101708.png)
+
+
 
