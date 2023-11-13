@@ -1,4 +1,4 @@
-# count number of one's in given binary input
+# Count number of one's in given binary input
 ## Overview
 
 The `count_ones` module is a simple Verilog module that takes an 8-bit input vector and outputs a 4-bit vector representing the count of ones in the input vector. The module uses a combinational always block to perform the counting.
